@@ -1,0 +1,85 @@
+body{ background-image: linear-gradient(darkgrey, black);} 
+
+
+.splashOuter {
+    background-image: url("assets/nasa.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 40vw;
+}
+
+.splash {
+    display: flex;
+    flex-direction: column;
+    font-size: 10vw;
+    text-align: center;
+    color: lightgrey;
+    padding-top: 100px;
+}
+
+.splash2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 3vw;
+    text-align: center;
+    color: grey;
+    margin-top: 10px;
+}
+.headingAbout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: lightgray;
+}
+
+.about {
+    /* background-image: url("assets/nasa.jpeg"); */
+    background-size: 100%;
+    padding-top: 50px;
+    height: 50vh;    
+}
+
+.about2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px; 
+    margin-right: 100px;
+    color: lightgray;
+    text-align: justify;
+    height: 50vh;
+
+}
+
+.headingProject {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: lightgray;
+}
+
+#one {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headingContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: lightgray;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: lightgrey;
+}

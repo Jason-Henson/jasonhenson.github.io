@@ -1,1 +1,115 @@
-<h1>Hello Wrold</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Jason Henson</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+    <nav id="nav" class="navbar navbar-light bg-light px-3 bg-dark navbar-dark sticky-top .navebar-toggler">
+        <a class="navbar-brand" href="#">Jason Henson</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#fat">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mdo">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Learn More</a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#one">Projects</a></li>
+              <li><a class="dropdown-item" href="#two">Contact</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <!-- 
+              <li><a class="dropdown-item" href="#three">Contact</a></li> -->
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div  data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
+            <div class="splashOuter" id="fat" >
+
+                <div>
+                    <h1 class="splash">Jason Henson</h1>
+                    <p class="splash2">Frontend Web Developer</p>
+                </div>
+            </div>
+    
+        
+        <div class="about" id="mdo">
+        <h2 class="headingAbout" >About Me</h2>
+        <p class="about2">            
+            Hello, my name is Jason Henson. I am currently studying to become a frontend web developer.  
+            I am currently working on towards the required certifications at Ivy Tech Community College and Eleven Fifty Academy.  
+            I am a technophile and love learning new technologies.  I have extensive experience in telecommunications order writing, 
+            contract implementation, application support and operations management.  
+            I have several years of industry experience in back off support business to business client support at AT&T and IBM.  
+            I have extensive experience in building and working as part of global teams.  
+            I earned by B.S. in Business Information Systems from Indiana Wesleyan University and 
+            E-commence Development Certificate from Purdue University.  You take a look at my projects on Github.  
+            Also, please learn more about professional experience on Linkedin.
+        </p>
+        </div>
+        <div class="headingProject"> <h2>My Projects</h2> </div>
+        <div id="one">
+        <div class="card" style="width: 18rem;">
+            <img src="assets/creature.png" class="card-img-top" alt="creature project">
+            <div class="card-body">
+              <h5 class="card-title">Creature Project</h5>
+              <p class="card-text">HTML and CSS animation.</p>
+              <a href="https://codepen.io/JasonHenson/pen/ZEOVPLL" class="btn btn-primary">View on CodePen</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="assets/static.png" class="card-img-top" alt="static layout project">
+            <div class="card-body">
+                <h5 class="card-title">Static Layout Project</h5>
+                <h6 class="card-subtitle mb-2 text-muted">HTML and CSS</h6>
+                <p class="card-text">View on Github.</p>
+                <a href="https://jason-henson.github.io/staticlayout/" class="btn btn-primary">View on Github</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="assets/api.png" class="card-img-top" alt="API Project">
+            <div class="card-body">
+                <h5 class="card-title">Static Layout Project</h5>
+                <h6 class="card-subtitle mb-2 text-muted">HTML and CSS</h6>
+                <p class="card-text">View on Github.</p>
+                <a href="https://jason-henson.github.io/apichallenge/" class="btn btn-primary">View on Github</a>
+            </div>
+        </div>
+          </div>
+        <p>
+
+        </p>
+        <div id="two">
+        <h2 class="headingContact" >Contact Me</h2>
+        <div class="email" >
+            <form action="mailto:jasona.a.henson.com" method="post" enctype="text/plain">
+                Name:<br>
+                <input type="text" name="name"><br>
+                E-mail:<br>
+                <input type="text" name="mail"><br>
+                Comment:<br>
+                <input type="text" name="comment" size="50"><br><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+                </form>
+        </div>        
+        
+
+
+        </div>
+        <!-- <h4 id="three">Contact</h4>
+        <p>...</p> --> 
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
